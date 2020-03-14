@@ -1,0 +1,9 @@
+Feature: Retrieve password
+
+  Scenario: Testing retrieve password
+
+    Given User is on the practice landing page
+    When user navigates to forgot password page
+    And user enters the email
+    And user clicks retrieve password button
+    Then user be able to see 'Your e-mail's been sent!' message

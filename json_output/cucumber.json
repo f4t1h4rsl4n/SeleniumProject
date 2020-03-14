@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Testing retrieve password",
+        "description": "",
+        "id": "retrieve-password;testing-retrieve-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7032134500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the practice landing page",
+            "match": {
+              "location": "RetrievePasswordDefinition.userIsOnThePracticeLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235898100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to forgot password page",
+            "match": {
+              "location": "RetrievePasswordDefinition.userNavigatesToForgotPasswordPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144266000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the email",
+            "match": {
+              "location": "RetrievePasswordDefinition.userEntersTheEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255085400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks retrieve password button",
+            "match": {
+              "location": "RetrievePasswordDefinition.userClicksRetreivePasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 678335200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user be able to see \u0027Your e-mail\u0027s been sent!\u0027 message",
+            "match": {
+              "location": "RetrievePasswordDefinition.userSeesSuccessMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Retrieve password",
+    "description": "",
+    "id": "retrieve-password",
+    "keyword": "Feature",
+    "uri": "C:/Users/artem/IdeaProjects/SeleniumProject/src/test/java/automation/features/cybertek.features"
+  }
+]

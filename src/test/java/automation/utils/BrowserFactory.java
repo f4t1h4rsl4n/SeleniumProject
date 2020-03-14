@@ -19,7 +19,8 @@ public class BrowserFactory {
                 if (oP.contains("ac")){
                     return null;
                 } else{
-                    WebDriverManager.edgedriver().setup();
+                    System.setProperty("webdriver.edge.driver","C:\\Users\\artem\\IdeaProjects\\SeleniumProject\\src\\main\\resources\\edgedriver_win32\\msedgedriver.exe");
+//                    WebDriverManager.edgedriver().version("80").setup();
                     return new EdgeDriver();
                 }
             case "safari":
